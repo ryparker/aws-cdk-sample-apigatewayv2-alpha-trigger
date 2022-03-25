@@ -1,0 +1,26 @@
+{
+  "name": "aws-cdk-sample",
+  "version": "2.0.0",
+  "main": "build/js/index.js",
+  "repository": "https://ryparker@github.com/ryparker/aws-cdk-sample.git",
+  "author": "Ryan Parker <ryan.parker3@outlook.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "bootstrap": "cdk bootstrap",
+    "build": "yarn clean && yarn tsc && yarn cdk synth",
+    "deploy": "cdk deploy",
+    "test": "yarn clean && jest",
+    "diff": "cdk diff",
+    "clean": "rimraf cdk.context.json build",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "latest",
+    "constructs": "latest"
+  },
+  "devDependencies": {
+    "aws-cdk": "latest",
+    "rimraf": "latest",
+    "typescript": "latest"
+  }
+}
