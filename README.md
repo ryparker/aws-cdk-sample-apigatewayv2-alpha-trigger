@@ -31,7 +31,7 @@ yarn bootstrap
 yarn deploy --all
 ```
 
-5. View the console Error
+**5. View the console Error**
 
 View one of the created Lambda functions in the AWS console. Then open "configuration" > "Triggers" to see the error.
 

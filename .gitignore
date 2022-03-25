@@ -125,3 +125,6 @@ cd.context.json
 
 # Ignore NPM lockfile (use yarn instead)
 package-lock.json
+
+# Mac
+.DS_Store
